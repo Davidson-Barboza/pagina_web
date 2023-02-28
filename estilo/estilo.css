@@ -1,0 +1,179 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+#cabecalho{
+    background-color: #1f2937;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+}
+#cabecalho .link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#cabecalho .link .logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium';
+}
+#cabecalho .link .acesso{
+    display: flex;
+    flex-direction: row;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+#cabecalho .link .acesso div{ 
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+#cabecalho .cab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+#cabecalho .cab .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+#cabecalho .cab .titulo .principal{
+    color: #f9faf8;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium';
+    margin: 10px;
+}
+#cabecalho .cab .titulo .secundario{
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    width: 75%;
+    margin: 10px;
+}
+#cabecalho .cab .imagem_cabecalho{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 600px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+#cabecalho .cab .titulo .botao{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium';
+    margin: 1%;
+}
+#corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+#corpo .titulo{
+    color: #1f2937;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium';
+    margin: 50px;
+}
+#corpo .bloco{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    width: 750px;
+}
+#corpo .bloco div{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+#mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-color: #e5e7eb;
+}
+#mensagem .thor{
+    color: #1f2937;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium';
+    height: 200px;
+    width: 780px;
+}
+#mensagem .autor{
+    display: flex;
+    flex-direction: row;
+    color: #1f2937;
+    font-size: 18px;
+    margin-right: -35%;
+}
+#corpo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+#corpo2 .entrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 150px;
+    width: 800px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    border-radius: 25px;
+}
+#corpo2 .entrar .botao_acessar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    height: 100px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
